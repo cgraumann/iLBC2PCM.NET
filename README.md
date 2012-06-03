@@ -7,12 +7,17 @@ Content
 -------
 
 1) iLBC
+
 C# fork of the original iLBC source codes. These files have been created by Walking Cat (see copyright information below)
 These classes are actually used by the test application.
+
 2) iLBCConverter
+
 Trying to pack the original iLBC C-Sources into a DLL to be imported by other projects. The Sourcefiles have been extracted from the iLBC specification file (rfc3951.txt).
 This project cannot be compiled by now due to a linker error. If somebody has a clue to fix this, please send a pull request!
+
 3) iLBCTest
+
 The actual Testapplication. It includes Classes for a CAF reader, a class for a WAV writer and the main class where some sound is converted.
 Within the debug build folder are some sound files for the test.
 
