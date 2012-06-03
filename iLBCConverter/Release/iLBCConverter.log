@@ -1,0 +1,86 @@
+﻿Build started 25.05.2012 21:16:17.
+     1>Project "Z:\Dropbox\Tieto\Research\iLBC.NET\iLBCConverter\iLBCConverter.vcxproj" on node 2 (build target(s)).
+     1>PrepareForBuild:
+         Creating directory "Z:\Dropbox\Tieto\Research\iLBC.NET\Release\".
+       InitializeBuildStatus:
+         Creating "Release\iLBCConverter.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D ILBCCONVERTER_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt anaFilter.c constants.c createCB.c doCPLC.c enhancer.c filter.c FrameClassify.c gainquant.c getCBvec.c helpfun.c hpInput.c hpOutput.c iCBConstruct.c iCBSearch.c iLBC_decode.c iLBC_encode.c iLBC_test.c LPCdecode.c LPCencode.c lsf.c packing.c StateConstructW.c StateSearchW.c syntFilter.c
+         anaFilter.c
+         constants.c
+         createCB.c
+         doCPLC.c
+         enhancer.c
+         filter.c
+         FrameClassify.c
+         gainquant.c
+         getCBvec.c
+         helpfun.c
+         hpInput.c
+         hpOutput.c
+         iCBConstruct.c
+         iCBSearch.c
+         iLBC_decode.c
+         iLBC_encode.c
+         iLBC_test.c
+     1>iLBC_test.c(175): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
+     1>iLBC_test.c(178): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
+     1>iLBC_test.c(181): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
+     1>iLBC_test.c(185): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
+         LPCdecode.c
+         LPCencode.c
+         lsf.c
+         Compiling...
+         packing.c
+         StateConstructW.c
+         StateSearchW.c
+         syntFilter.c
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D ILBCCONVERTER_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt iLBCConverter.cpp
+         iLBCConverter.cpp
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /nologo /fo"Release\iLBCConverter.res" iLBCConverter.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"Z:\Dropbox\Tieto\Research\iLBC.NET\Release\iLBCConverter.dll" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\iLBCConverter.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"Z:\Dropbox\Tieto\Research\iLBC.NET\Release\iLBCConverter.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"Z:\Dropbox\Tieto\Research\iLBC.NET\Release\iLBCConverter.lib" /MACHINE:X86 /DLL Release\iLBCConverter.res
+         Release\anaFilter.obj
+         Release\constants.obj
+         Release\createCB.obj
+         Release\doCPLC.obj
+         Release\enhancer.obj
+         Release\filter.obj
+         Release\FrameClassify.obj
+         Release\gainquant.obj
+         Release\getCBvec.obj
+         Release\helpfun.obj
+         Release\hpInput.obj
+         Release\hpOutput.obj
+         Release\iCBConstruct.obj
+         Release\iCBSearch.obj
+         Release\iLBCConverter.obj
+         Release\iLBC_decode.obj
+         Release\iLBC_encode.obj
+         Release\iLBC_test.obj
+         Release\LPCdecode.obj
+         Release\LPCencode.obj
+         Release\lsf.obj
+         Release\packing.obj
+         Release\StateConstructW.obj
+         Release\StateSearchW.obj
+         Release\syntFilter.obj
+            Creating library Z:\Dropbox\Tieto\Research\iLBC.NET\Release\iLBCConverter.lib and object Z:\Dropbox\Tieto\Research\iLBC.NET\Release\iLBCConverter.exp
+         Generating code
+         Finished generating code
+         iLBCConverter.vcxproj -> Z:\Dropbox\Tieto\Research\iLBC.NET\Release\iLBCConverter.dll
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"Z:\Dropbox\Tieto\Research\iLBC.NET\Release\iLBCConverter.dll;#2" /manifest Release\iLBCConverter.dll.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Release\iLBCConverter.unsuccessfulbuild".
+         Touching "Release\iLBCConverter.lastbuildstate".
+     1>Done Building Project "Z:\Dropbox\Tieto\Research\iLBC.NET\iLBCConverter\iLBCConverter.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.44

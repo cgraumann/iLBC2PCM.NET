@@ -1,0 +1,84 @@
+﻿Build started 30.05.2012 11:52:04.
+     1>Project "\\psf\Home\Dropbox\Tieto\Research\iLBC.NET\iLBCConverter\iLBCConverter.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug\iLBCConverter.unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D ILBCCONVERTER_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt anaFilter.c constants.c createCB.c doCPLC.c enhancer.c filter.c FrameClassify.c gainquant.c getCBvec.c helpfun.c hpInput.c hpOutput.c iCBConstruct.c iCBSearch.c iLBC_decode.c iLBC_encode.c iLBC_test.c LPCdecode.c LPCencode.c lsf.c packing.c StateConstructW.c StateSearchW.c syntFilter.c
+         syntFilter.c
+         StateSearchW.c
+         StateConstructW.c
+         packing.c
+         lsf.c
+         LPCencode.c
+         LPCdecode.c
+         iLBC_test.c
+     1>\\psf\home\dropbox\tieto\research\ilbc.net\ilbcconverter\ilbc_test.c(175): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+     1>\\psf\home\dropbox\tieto\research\ilbc.net\ilbcconverter\ilbc_test.c(178): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+     1>\\psf\home\dropbox\tieto\research\ilbc.net\ilbcconverter\ilbc_test.c(181): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+     1>\\psf\home\dropbox\tieto\research\ilbc.net\ilbcconverter\ilbc_test.c(185): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+         iLBC_encode.c
+         iLBC_decode.c
+         iCBSearch.c
+         iCBConstruct.c
+         hpOutput.c
+         hpInput.c
+         helpfun.c
+         getCBvec.c
+         gainquant.c
+         FrameClassify.c
+         filter.c
+         enhancer.c
+         Generating Code...
+         Compiling...
+         doCPLC.c
+         createCB.c
+         constants.c
+         anaFilter.c
+         Generating Code...
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D ILBCCONVERTER_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt iLBCConverter.cpp
+         iLBCConverter.cpp
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /nologo /fo"Debug\iLBCConverter.res" iLBCConverter.rc 
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\iLBCConverter.dll.embed.manifest.res" Debug\iLBCConverter_manifest.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"\\psf\Home\Dropbox\Tieto\Research\iLBC.NET\Debug\iLBCConverter.dll" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\iLBCConverter.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"\\psf\Home\Dropbox\Tieto\Research\iLBC.NET\Debug\iLBCConverter.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"\\psf\Home\Dropbox\Tieto\Research\iLBC.NET\Debug\iLBCConverter.lib" /MACHINE:X86 /DLL Debug\iLBCConverter.res
+         Debug\iLBCConverter.dll.embed.manifest.res
+         Debug\anaFilter.obj
+         Debug\constants.obj
+         Debug\createCB.obj
+         Debug\doCPLC.obj
+         Debug\enhancer.obj
+         Debug\filter.obj
+         Debug\FrameClassify.obj
+         Debug\gainquant.obj
+         Debug\getCBvec.obj
+         Debug\helpfun.obj
+         Debug\hpInput.obj
+         Debug\hpOutput.obj
+         Debug\iCBConstruct.obj
+         Debug\iCBSearch.obj
+         Debug\iLBCConverter.obj
+         Debug\iLBC_decode.obj
+         Debug\iLBC_encode.obj
+         Debug\iLBC_test.obj
+         Debug\LPCdecode.obj
+         Debug\LPCencode.obj
+         Debug\lsf.obj
+         Debug\packing.obj
+         Debug\StateConstructW.obj
+         Debug\StateSearchW.obj
+         Debug\syntFilter.obj
+            Creating library \\psf\Home\Dropbox\Tieto\Research\iLBC.NET\Debug\iLBCConverter.lib and object \\psf\Home\Dropbox\Tieto\Research\iLBC.NET\Debug\iLBCConverter.exp
+     1>iLBCConverter.obj : error LNK2019: unresolved external symbol "void __cdecl iLBC_decode(float *,unsigned char *,struct iLBC_Dec_Inst_t_ *,int)" (?iLBC_decode@@YAXPAMPAEPAUiLBC_Dec_Inst_t_@@H@Z) referenced in function "short __cdecl decodeBlock(short * const,short * const,short)" (?decodeBlock@@YAFQAF0F@Z)
+     1>iLBCConverter.obj : error LNK2019: unresolved external symbol "short __cdecl initDecode(struct iLBC_Dec_Inst_t_ *,int,int)" (?initDecode@@YAFPAUiLBC_Dec_Inst_t_@@HH@Z) referenced in function "short __cdecl decodeBlock(short * const,short * const,short)" (?decodeBlock@@YAFQAF0F@Z)
+     1>\\psf\Home\Dropbox\Tieto\Research\iLBC.NET\Debug\iLBCConverter.dll : fatal error LNK1120: 2 unresolved externals
+     1>Done Building Project "\\psf\Home\Dropbox\Tieto\Research\iLBC.NET\iLBCConverter\iLBCConverter.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:13.57
