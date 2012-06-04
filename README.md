@@ -19,7 +19,11 @@ This project cannot be compiled by now due to a linker error. If somebody has a 
 3) iLBCTest
 
 The actual Testapplication. It includes Classes for a CAF reader, a class for a WAV writer and the main class where some sound is converted.
-Within the debug build folder are some sound files for the test.
+You need a file "record_ilbc.caf" in the build folder (e.g. /bin/Debug). You can use the Samplefiles.
+
+4) Samplefiles
+
+This folder provides an audio file recorded in iLBC (on iOS Device) as well as the same file reconverted to PCM with Apple Libraries on iOS. This can be used as a reference to compare the output on hexadecimal basis. 
 
 Copyright
 ---------
