@@ -16,7 +16,7 @@ namespace iLBCTest
         {
             String source = "record_ilbc.caf";
             String output = "out.wav";
-            String blockSize = "30";
+            String blockSize = "20";
 
             const int BLOCKL_MAX = 240;
             const int BLOCKL_20MS = 160;
@@ -35,7 +35,7 @@ namespace iLBCTest
 
             for (int i = 0, j=0; i < audioShorts.Length; i++, j+=2)
             {
-                // Combine to bytes into one short
+                // Combine two bytes into one short
                 short tmp = (short)(((Int16)(audioBytes[j]) << 8) + audioBytes[j + 1]);
                 // Swap Endian Mode; The following line is for testing purposes and can be (un)commented as needed
                 tmp =  CAFReader.SwapInt16(tmp);
@@ -68,7 +68,6 @@ namespace iLBCTest
 
                 System.Diagnostics.Stopwatch stop = new System.Diagnostics.Stopwatch();
                 stop.Start();
-                short[] data = new short[mode == 20 ? NO_OF_WORDS_20MS : NO_OF_WORDS_30MS];
 
                 foreach (short[] s in frames)
                 {
@@ -111,10 +110,10 @@ namespace iLBCTest
                 wave.NumChannels = 1;
                 wave.BitsPerSample = 16;
                 wave.ByteRate = 16000;
-                wave.FileSize = waveData.Length + 36; // TODO
+                wave.FileSize = waveData.Length + 36; 
                 wave.BlockAlign = 2;
-                wave.DataSize = waveData.Length; //TODO
-                wave.Data = waveData; // TODO
+                wave.DataSize = waveData.Length; 
+                wave.Data = waveData; 
                 wave.StoreWave(output);
 
                 Console.WriteLine("Press enter to quit ...");
