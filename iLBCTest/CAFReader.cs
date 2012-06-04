@@ -69,7 +69,7 @@ namespace CAFReading
                 Console.WriteLine("Chunktype: {0}", CAFReader.ByteArrayToString(BitConverter.GetBytes(chunkType)));
                 if (chunkType == dataSpecifier)
                 {
-                        dataPos = stream.Position; // skip edits
+                        dataPos = stream.Position+4; // skip edits
                         dataSize = ((UInt32)(buffer[8]) << 24) + ((UInt32)(buffer[9]) << 16) + ((UInt32)(buffer[10]) << 8) + buffer[11];
                         dataSize -= 4; // edits included in size
                         done = true;
